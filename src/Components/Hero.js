@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
 
         <div className='hidden lg:flex flex-1 justify-end items-end h-full  '>
-          <img className='w-[550px] bg-accent-500 shadow-xl shadow-green-500/100  rounded-lg ring-2 ring-offset-1  contrast-150 saturate-150 ' src={Myimg} alt="" />
+          <img className='lg:w-[500px] w-[450px] bg-accent-500 shadow-xl shadow-green-500/100  rounded-lg ring-2 ring-offset-1  contrast-150 saturate-150 ' src={Myimg} alt="" />
         </div>
       </div>
 

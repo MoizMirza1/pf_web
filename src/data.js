@@ -14,11 +14,12 @@ import {
   } from 'react-icons/fi';
   
   // companies icons
-  // import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-  // import UpworkBrandIcon from './assets/img/brands/upwork.png';
-  // import FiverBrandIcon from './assets/img/brands/fiverr.png';
-  // import BehanceBrandIcon from './assets/img/brands/behance.png';
-  // import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+
+  import LinkedInIcon from './assets/img/brands/LinkedIn.png';
+  import UpworkBrandIcon from './assets/img/brands/Upwork.png';
+  import FiverBrandIcon from './assets/img/brands/Fiverr.png';
+  import BehanceBrandIcon from './assets/img/brands/Behance.png';
+  import FacebookBrandIcon from './assets/img/brands/Facebook.png';
   
   // projects images
   // import Project1 from './assets/img/projects/p1.webp';
@@ -92,28 +93,33 @@ import {
   ];
   
   // companies
-  // export const brands = [
-  //   {
-  //     img: FreelancerBrandIcon,
-  //     href: '',
-  //   },
-  //   {
-  //     img: UpworkBrandIcon,
-  //     href: '',
-  //   },
-  //   {
-  //     img: FiverBrandIcon,
-  //     href: '',
-  //   },
-  //   {
-  //     img: BehanceBrandIcon,
-  //     href: '',
-  //   },
-  //   {
-  //     img: DribbbleBrandIcon,
-  //     href: '',
-  //   },
-  // ];
+  export const brands = [
+    {
+      name : 'LinkedIn',
+      img: LinkedInIcon,
+      href: '',
+    },
+    {
+      name: 'Upwork',
+      img: UpworkBrandIcon,
+      href: '',
+    },
+    {
+      name: 'Fiverr',
+      img: FiverBrandIcon,
+      href: '',
+    },
+    {
+      name: 'Behance',
+      img: BehanceBrandIcon,
+      href: '',
+    },
+    {
+      name: 'Facebook',
+      img: FacebookBrandIcon,
+      href: '',
+    },
+  ];
   
   // projects
   // export const projectsData = [

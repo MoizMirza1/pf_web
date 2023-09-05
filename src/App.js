@@ -3,14 +3,18 @@ import './App.css'
 import './index.css'
 import Headers from './Components/Header'
 import Hero from './Components/Hero'
-import Home from './Components/Home'
+import Brands from './Components/Brands'
+import About from './Components/About'
+
 
 const App = () => {
   return (
     <div>
       <Headers/>
       <Hero/>
-      <Home/>
+      <Brands/>
+      <About/>
+   
       <div style={{height:"2000px"}}></div>
     </div>
   )

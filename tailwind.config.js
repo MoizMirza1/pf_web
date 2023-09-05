@@ -5,6 +5,7 @@ module.exports = {
       
       primary: 'Playfair Display',
       body: "Karla",
+      alternate: 'Fira Sans',
     },
     container: {
       padding: {
