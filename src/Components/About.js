@@ -19,12 +19,10 @@ const About = () => {
     <section className="bg-secondary" id="about" ref={ref}>
       <div className="container max-w-[1320px] mx-auto px-4 lg:px-0 flex flex-col sm:flex-row ">
         {/* left side */}
-        <div className="basis-[45%]">
-          <img
-            className="object-cover w-[560px] my-10 md:mx-auto lg:mx-0 rounded-3xl transform scale-100 hover:scale-105 overflow-hidden  duration-300"
-            src={AboutImg}
-            alt="AboutImage"
-          ></img>
+        <div className="basis-[45%] p-3 m-5">
+        <div class="h-min overflow-hidden rounded-md">
+    <img class="hover:scale-125 transition-all duration-500 cursor-pointer rounded-3xl" src={AboutImg} alt="" />
+  </div>
         </div>
 
         {/* right side */}
@@ -37,28 +35,28 @@ const About = () => {
             tailwind Css"{" "}
           </h3>
          
-          <div className="flex gap-x-6 lg:gap-x-20 justify-center hover:scale-105 hover:transition-transform duration-300 ">
+          <div className="flex md:flex-row flex-col mt-5  gap-x-6 lg:gap-x-20 justify-center hover:scale-105 hover:transition-transform duration-300 ">
             <div className=" ease-in-out border-l-2 border-Sea rounded-3xl  inline-block  p-7  hover:transform hover:scale-105 hover:transition-transform duration-300">
-              <div className="text-[40px] text-accent mb-4 text-center  ">
+              <div className="sm:text-[35px] text-[30px] text-accent mb-4 sm:text-left  ">
                 {inView ? <CountUp start={0} end={2} duration={3} /> : null}+
               </div>
-              <div className="font-primary text-sm tracking-[2px] text-center">
+              <div className="font-primary text-sm tracking-[2px] text-left">
                 Years of <br /> Experience
               </div>
             </div>
-            <div className="border-y-2 border-Sea rounded-3xl  inline-block  p-7 hover:transform hover:scale-105 hover:transition-transform duration-300">
-              <div className="text-[40px] text-accent mb-4 text-center ">
+            <div className=" border-Sea rounded-3xl  inline-block  p-7 hover:transform hover:scale-105 hover:transition-transform duration-300">
+              <div className="sm:text-[35px] text-[35px] text-accent mb-4 text-center ">
                 {inView ? <CountUp start={0} end={15} duration={3} /> : null}+
               </div>
-              <div className=" font-thin text-base tracking-[0px] text-center p-2 text-cyan-200">
+              <div className=" font-thin text-base tracking-[0px] text-center p-2 text-white">
                 Number of <br /> Projects
               </div>
             </div>
             <div className="border-r-2 border-Sea rounded-3xl  inline-block  p-7 hover:transform hover:scale-105 hover:transition-transform duration-300">
-              <div className="text-[40px] text-accent mb-4">
+              <div className=" sm:text-[35px] text-[30px] text-accent mb-4 text-right">
                 {inView ? <CountUp start={0} end={50} duration={3} /> : null} +
               </div>
-              <div className="font-bold text-sm tracking-[2px] text-center   ">
+              <div className="font-bold text-sm tracking-[2px] text-right   ">
                 Satisfied <br />
                 Cients
               </div>

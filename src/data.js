@@ -30,14 +30,15 @@ import {
   // import Project6 from './assets/img/projects/p6.webp';
   
   // skills images
-  // import SkillImg1 from './assets/img/skills/html5.png';
-  // import SkillImg2 from './assets/img/skills/css3.png';
-  // import SkillImg3 from './assets/img/skills/js.png';
-  // import SkillImg4 from './assets/img/skills/reactjs.png';
-  // import SkillImg5 from './assets/img/skills/nextjs.png';
-  // import SkillImg6 from './assets/img/skills/nodejs.png';
-  // import SkillImg7 from './assets/img/skills/git.png';
-  // import SkillImg8 from './assets/img/skills/figma.png';
+  import SkillImg1 from './assets/img/skills/html-5.png';
+  import SkillImg2 from './assets/img/skills/css-3.png';
+  import SkillImg3 from './assets/img/skills/js.png';
+  import SkillImg4 from './assets/img/skills/science.png';
+  import SkillImg5 from './assets/img/skills/tailwindcss.png';
+  import SkillImg6 from './assets/img/skills/mongodb.png';
+  import SkillImg7 from './assets/img/skills/express.png';
+  import SkillImg8 from './assets/img/skills/giticon.png';
+  import SkillImg9 from './assets/img/skills/nodejs.png';
   
   // testimonial images
   // import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -178,32 +179,82 @@ import {
   // ];
   
   // // skill
-  // export const skills = [
-  //   {
-  //     image: SkillImg1,
-  //   },
-  //   {
-  //     image: SkillImg2,
-  //   },
-  //   {
-  //     image: SkillImg3,
-  //   },
-  //   {
-  //     image: SkillImg4,
-  //   },
-  //   {
-  //     image: SkillImg5,
-  //   },
-  //   {
-  //     image: SkillImg6,
-  //   },
-  //   {
-  //     image: SkillImg7,
-  //   },
-  //   {
-  //     image: SkillImg8,
-  //   },
-  // ];
+  export const skills = [
+    {
+      image: SkillImg1,
+      level: 90,
+      name: 'HTML',
+      color: '#fcba03',
+      txtColor: 'black',
+      
+
+    },
+    {
+      image: SkillImg2,
+      level: 80,
+      name: 'CSS',
+      
+      color: '#264de4',
+      txtColor: '#fff',
+
+    },
+    {
+      image: SkillImg3,
+      level: 60,
+      name: 'JavaScript',
+      color: '#f0db4f',
+      txtColor: '#000',
+      
+      
+    },
+    {
+      image: SkillImg4,
+      level: 70,
+      name: 'React',
+      color: 'darkcyan',
+      txtColor: '#000',
+
+    },
+    {
+      image: SkillImg5,
+      level: 70,
+      name: 'Tailwind CSS',
+      color: '#06b6d4',
+      txtColor: 'black',
+
+    },
+    {
+      image: SkillImg6,
+      level: 40,
+      name : 'MongoDB',
+      color: '#13aa52',
+      txtColor : '#fff',
+    },
+    {
+      image: SkillImg7,
+      level: 30,
+      name: 'Express',
+      color: 'purple',
+      txtColor: '#fff',
+
+    },
+    {
+      image: SkillImg8,
+      level: 90,
+      name: 'Git',
+      color: '#f34f29',
+      txtColor: '#fff',
+
+    },
+    {
+      image: SkillImg9,
+      level: 50,
+      name: 'NodeJs',
+      color: '#3c873a',
+      txtColor: '#fff',
+
+    },
+  ];
   
   // services
   export const services = [
