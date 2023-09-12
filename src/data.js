@@ -22,12 +22,12 @@ import {
   import FacebookBrandIcon from './assets/img/brands/Facebook.png';
   
   // projects images
-  // import Project1 from './assets/img/projects/p1.webp';
-  // import Project2 from './assets/img/projects/p2.webp';
-  // import Project3 from './assets/img/projects/p3.webp';
-  // import Project4 from './assets/img/projects/p4.webp';
-  // import Project5 from './assets/img/projects/p5.webp';
-  // import Project6 from './assets/img/projects/p6.webp';
+  import Project1 from './assets/img/projects/gamingwebsite.jpg';
+  import Project2 from './assets/img/projects/github finder.jpg';
+  import Project3 from './assets/img/projects/login.jpg';
+  import Project4 from './assets/img/projects/oliver-pecker-HONJP8DyiSM-unsplash.jpg';
+  import Project5 from './assets/img/projects/Store.jpg';
+  import Project6 from './assets/img/projects/tictactoe.jpg';
   
   // skills images
   import SkillImg1 from './assets/img/skills/html-5.png';
@@ -122,61 +122,67 @@ import {
     },
   ];
   
-  // projects
-  // export const projectsData = [
-  //   {
-  //     id: '1',
-  //     image: Project1,
-  //     name: 'project name 1',
-  //     category: 'UI/UX design',
-  //   },
-  //   {
-  //     id: '2',
-  //     image: Project2,
-  //     name: 'project name 2',
-  //     category: 'web development',
-  //   },
-  //   {
-  //     id: '3',
-  //     image: Project3,
-  //     name: 'project name 3',
-  //     category: 'UI/UX design',
-  //   },
-  //   {
-  //     id: '4',
-  //     image: Project4,
-  //     name: 'project name 4',
-  //     category: 'branding',
-  //   },
-  //   {
-  //     id: '5',
-  //     image: Project5,
-  //     name: 'project name 5',
-  //     category: 'web development',
-  //   },
-  //   {
-  //     id: '6',
-  //     image: Project6,
-  //     name: 'project name 6',
-  //     category: 'web development',
-  //   },
-  // ];
-  
   // // projects
-  // export const projectsNav = [
-  //   {
-  //     name: 'all',
-  //   },
-  //   {
-  //     name: 'UI/UX Design',
-  //   },
-  //   {
-  //     name: 'web development',
-  //   },
-  //   {
-  //     name: 'branding',
-  //   },
-  // ];
+  export const projectsData = [
+    {
+      id: '1',
+      image: Project1,
+      name: ' Gaming Accessories Website',
+      category: 'UI/UX design',
+      site: "https://gameverse.netlify.app/"
+    },
+    {
+      id: '2',
+      image: Project2,
+      name: 'Github Finder',
+      category: 'web development',
+      site: ""
+    },
+    {
+      id: '3',
+      image: Project3,
+      name: 'Login Form with Express and MongoDB',
+      category: 'Designing',
+      site : ""
+    },
+    {
+      id: '4',
+      image: Project4,
+      name: 'SmartX Watches Store',
+      category: 'branding',
+      site : ''
+    },
+    {
+      id: '5',
+      image: Project5,
+      name: 'Ecormmerce WebStore',
+      category: 'web development',
+      site : ''
+    },
+    {
+      id: '6',
+      image: Project6,
+      name: 'Tic Tac Toe Game',
+      category: 'web development',
+      site : ''
+    },
+  ];
+  
+  // projects
+  export const projectsNav = [
+    {
+      name: 'all',
+    },
+    {
+      name: 'UI/UX Design',
+    },
+    {
+      name: 'Web development',
+    },
+    {
+      name: 'Designing',
+    },
+  ];
   
   // // skill
   export const skills = [
