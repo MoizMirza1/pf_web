@@ -1,28 +1,3 @@
-// import React from 'react';
-// import { brands } from '../data';
-
-// const Brands = () => {
-//   return (
-//     <section className="min-h-[146px] relative isolate  bg-gray-900 py-6  flex items-center ">
-//       <div className="w-full container mx-auto flex md:justify-between items-center flex-col lg:flex-row transition-all duration-500">
-//         {brands.map((brand, index) => {
-//           return (
-//             <div key={brand} className=" ">
-//               <img
-//                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1  "
-//                 src={brand.img}
-//                 alt={`Brand ${index}`}
-//               />
-             
-//             </div>
-//           );
-//         })}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Brands;
 
 import React from "react";
 import { brands } from "../data";
@@ -31,7 +6,7 @@ const Brands = () => {
   return (
     <div className="bg-gradient-to-r from-slate-900 to-slate-700  py-24 sm:py-12">
     <div className="mx-auto max-w-8xl px-6 lg:px-5">
-      <h2 className="text-center text-lg font-semibold leading-8 text-white underline underline-offset-4">
+      <h2 className="text-center text-lg font-semibold leading-8 text-gray-200 underline underline-offset-4">
         Most Trusted Brands
       </h2>
       <div className="mx-auto mt-8 grid max-w-lg grid-cols-3 items-center gap-x-10 gap-y-10 sm:max-sm sm:grid-cols-6 sm:gap-x-10 lg:mx-[200px] lg:max-w-none lg:grid-cols-5">

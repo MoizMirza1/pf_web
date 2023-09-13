@@ -7,6 +7,8 @@ import Brands from './Components/Brands'
 import About from './Components/About'
 import Skills from './Components/Skills'
 import Portfolio from './Components/Portfolio'
+import Service from './Components/Service'
+import Testimonials from './Components/testimonials'
 
 
 
@@ -19,8 +21,11 @@ const App = () => {
       <Brands/>
       <About/>
       <Skills/>
-    
       <Portfolio/>
+      <Service/>
+      <Testimonials/>
+
+      
     
    
       <div style={{height:"2000px"}}></div>

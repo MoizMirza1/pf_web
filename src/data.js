@@ -23,11 +23,12 @@ import {
   
   // projects images
   import Project1 from './assets/img/projects/gamingwebsite.jpg';
-  import Project2 from './assets/img/projects/github finder.jpg';
+  import Project2 from './assets/img/projects/githubImg.jpg';
   import Project3 from './assets/img/projects/login.jpg';
-  import Project4 from './assets/img/projects/oliver-pecker-HONJP8DyiSM-unsplash.jpg';
-  import Project5 from './assets/img/projects/Store.jpg';
-  import Project6 from './assets/img/projects/tictactoe.jpg';
+  import Project4 from './assets/img/projects/WatchImg.png';
+  import Project5 from './assets/img/projects/Store.png';
+  import Project6 from './assets/img/projects/tictactoe.png';
+  import Project7 from './assets/img/projects/tictactoe.png';
   
   // skills images
   import SkillImg1 from './assets/img/skills/html-5.png';
@@ -41,9 +42,9 @@ import {
   import SkillImg9 from './assets/img/skills/nodejs.png';
   
   // testimonial images
-  // import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-  // import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-  // import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+  import TestiImage1 from './assets/img/testimonials/review1.jpg';
+  import TestiImage2 from './assets/img/testimonials/review2.jpg';
+  import TestiImage3 from './assets/img/testimonials/review3.jpg';
   
   // navigation
   export const navigation = [
@@ -129,42 +130,48 @@ import {
       image: Project1,
       name: ' Gaming Accessories Website',
       category: 'UI/UX design',
-      site: "https://gameverse.netlify.app/"
+      link: "https://gameverse.netlify.app/",
+      site : "Visit live"
     },
     {
       id: '2',
       image: Project2,
       name: 'Github Finder',
       category: 'web development',
-      site: ""
+      link: "",
+      site : "Visit live"
     },
     {
       id: '3',
       image: Project3,
       name: 'Login Form with Express and MongoDB',
       category: 'Designing',
-      site : ""
+      link: "",
+      site : "Coming soon"
     },
     {
       id: '4',
       image: Project4,
       name: 'SmartX Watches Store',
       category: 'branding',
-      site : ''
+      link : '',
+      site : "Coming Soon"
     },
     {
       id: '5',
       image: Project5,
       name: 'Ecormmerce WebStore',
       category: 'web development',
-      site : ''
+      link: '',
+      site : "Coming soon"
     },
     {
       id: '6',
       image: Project6,
       name: 'Tic Tac Toe Game',
       category: 'web development',
-      site : ''
+      link : '',
+      site : "Visit live"
     },
   ];
   
@@ -278,42 +285,42 @@ import {
     },
     {
       icon: <FiPenTool />,
-      name: 'Branding',
+      name: 'Graphic Design',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
     },
     {
       icon: <FiTag />,
-      name: 'SEO',
+      name: 'Posters Design',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
     },
   ];
   
   // testimonials
-  // export const testimonials = [
-  //   {
-  //     authorImg: TestiImage1,
-  //     authorText:
-  //       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-  //     authorName: 'Olivia Doe',
-  //     authorPosition: 'Head of Design, Google',
-  //   },
-  //   {
-  //     authorImg: TestiImage2,
-  //     authorText:
-  //       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-  //     authorName: 'Olivia Doe',
-  //     authorPosition: 'Head of Design, Google',
-  //   },
-  //   {
-  //     authorImg: TestiImage3,
-  //     authorText:
-  //       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-  //     authorName: 'Olivia Doe',
-  //     authorPosition: 'Head of Design, Google',
-  //   },
-  // ];
+  export const testimonials = [
+    {
+      authorImg: TestiImage1,
+      authorText:
+        'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      authorName: 'Olivia Doe',
+      authorPosition: 'Head of Design, Google',
+    },
+    {
+      authorImg: TestiImage2,
+      authorText:
+        'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      authorName: 'Olivia Doe',
+      authorPosition: 'Head of Design, Google',
+    },
+    {
+      authorImg: TestiImage3,
+      authorText:
+        'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      authorName: 'Olivia Doe',
+      authorPosition: 'Head of Design, Google',
+    },
+  ];
   
   // contact
   export const contact = [

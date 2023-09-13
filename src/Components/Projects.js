@@ -32,7 +32,7 @@ const handleClick  = (e, index) => {
   return (
     <div>
     <nav className='mt-12 max-w-xl mx-auto  text-center'>  
-      <ul className=' flex flex-col md:flex-row justify-evenly items-center text-white capitalize'>  
+      <ul className=' flex  md:flex-row justify-evenly items-center text-white capitalize'>  
         {projectsNav.map((item, index) => (
           <li
             key={index}

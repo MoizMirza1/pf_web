@@ -16,7 +16,7 @@ const Project = ({ item }) => {
             isFlipped ? 'hidden' : 'block'
           } w-full h-full absolute transition-transform duration-500 ease-in-out transform-gpu`}
         >
- \
+ 
          
           <div
             className="w-full h-full rounded-lg p-4 flex flex-col justify-center items-center cursor-pointer"
@@ -42,8 +42,8 @@ const Project = ({ item }) => {
          
           <p>{item.name}</p>
           <div className="flex justify-center items-center">
-            <a href={item.site} className='text-accent mt-5 p-2 bg-Green rounded-lg'>
-              See Live
+            <a href={item.link} className='text-accent mt-5 p-2 bg-Green rounded-lg'>
+              {item.site}
               
             </a>
             </div>
