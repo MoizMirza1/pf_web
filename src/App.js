@@ -9,6 +9,8 @@ import Skills from './Components/Skills'
 import Portfolio from './Components/Portfolio'
 import Service from './Components/Service'
 import Testimonials from './Components/testimonials'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 
 
@@ -24,6 +26,8 @@ const App = () => {
       <Portfolio/>
       <Service/>
       <Testimonials/>
+      <Contact/>
+      <Footer/>
 
       
     

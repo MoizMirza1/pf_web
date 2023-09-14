@@ -65,8 +65,8 @@ import {
       href: 'services',
     },
     {
-      name: 'testimonials',
-      href: 'testimonials',
+      name: 'Reviews',
+      href: 'Reviews',
     },
     {
       name: 'contact',
@@ -291,7 +291,7 @@ import {
     },
     {
       icon: <FiTag />,
-      name: 'Posters Design',
+      name: 'Advetising Animation (2D) ', 
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
     },
@@ -303,22 +303,22 @@ import {
       authorImg: TestiImage1,
       authorText:
         'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-      authorName: 'Olivia Doe',
-      authorPosition: 'Head of Design, Google',
+      authorName: 'Alex',
+      authorPosition: 'CEO, ABC Company',
     },
     {
       authorImg: TestiImage2,
       authorText:
         'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-      authorName: 'Olivia Doe',
-      authorPosition: 'Head of Design, Google',
+      authorName: 'Myers michel',
+      authorPosition: 'Web Developer, Engineer',
     },
     {
       authorImg: TestiImage3,
       authorText:
         'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-      authorName: 'Olivia Doe',
-      authorPosition: 'Head of Design, Google',
+      authorName: 'Oliver',
+      authorPosition: 'Designer, ABC Company ',
     },
   ];
   
@@ -328,12 +328,12 @@ import {
       icon: <FiMail />,
       title: 'Have a question?',
       subtitle: 'I am here to help you.',
-      description: 'Email me at hello@youremail.com',
+      description: 'Email me at moizmirza212@gmail.com',
     },
     {
       icon: <FiMapPin />,
       title: 'Current Location',
-      subtitle: 'Bucharest, Romania',
-      description: 'Serving clients worldwide',
+      subtitle: 'Karachi, Pakistan',
+      description: 'Serving Mern Stack Development Services',
     },
   ];

@@ -7,7 +7,7 @@ const Service = () => {
       <div className="container  py-24 mx-auto">
         <div className="flex flex-col items-center text-center w-full mb-20">
         <h2 className=" text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-4xl flex justify-center mb-[5px]">
-          Our &nbsp;
+          Our ~&nbsp;
           <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 ">
             Services
           </span>

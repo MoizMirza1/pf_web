@@ -36,7 +36,7 @@ const Project = ({ item }) => {
         <div
           className={`flip-card-back ${
             isFlipped ? 'block' : 'hidden'
-          } w-full h-full  rounded-lg p-4 flex flex-col justify-center items-center cursor-pointer absolute transition-transform duration-500 ease-in-out transform-gpu`}
+          } w-full h-full  rounded-lg p-4 flex flex-col justify-center items-center cursor-pointer absolute transition-transform duration-500 ease-in-out transform-gpu `}
           onClick={toggleFlip}
         >
          
