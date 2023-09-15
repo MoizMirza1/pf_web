@@ -8,7 +8,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { MdOutlineClose } from "react-icons/md";
 
 // import logo
-import logo from '../assets/img/My logo.png'
+import logo from '../assets/img/My logo2.png'
 
 // import Component
 import Socials from "./Socials";

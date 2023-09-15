@@ -10,7 +10,12 @@ const Skills = () => {
   return (
     <section className="bg-tertiary py-12">
       <div className="container mx-auto px-4">
-      <h2 className="text-3xl font-bold mb-4 flex justify-center mb-10"><span className='text-accent'>S</span>kills</h2>
+      <h2 className=" text-2xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-3xl flex justify-center mb-[12px]">
+           &nbsp;
+          <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 ">
+            Skills
+          </span>
+        </h2>
         <div className="flex flex-wrap mx-4 align-center">
            
           {skills.map((skill) => (

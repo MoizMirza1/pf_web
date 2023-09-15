@@ -11,6 +11,10 @@ import Service from './Components/Service'
 import Testimonials from './Components/testimonials'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
+import BacktoTopBtn from './Components/BacktoTopBtn'
+
+
+
 
 
 
@@ -28,11 +32,12 @@ const App = () => {
       <Testimonials/>
       <Contact/>
       <Footer/>
+      <BacktoTopBtn/>
 
       
     
    
-      <div style={{height:"2000px"}}></div>
+      <div ></div>
     </div>
   )
 }

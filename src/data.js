@@ -1,9 +1,7 @@
 //  icons
 import {
     FiYoutube,
-    FiInstagram,
     FiGithub,
-    FiDribbble,
     FiLayout,
     FiSettings,
     FiPenTool,
@@ -11,6 +9,10 @@ import {
     FiMail,
     FiMapPin,
     FiFacebook,
+    FiLinkedin,
+    FiPhoneCall,
+    FaAdvertising,
+
   } from 'react-icons/fi';
   
   // companies icons
@@ -22,13 +24,16 @@ import {
   import FacebookBrandIcon from './assets/img/brands/Facebook.png';
   
   // projects images
-  import Project1 from './assets/img/projects/gamingwebsite.jpg';
-  import Project2 from './assets/img/projects/githubImg.jpg';
-  import Project3 from './assets/img/projects/login.jpg';
+  import Project1 from './assets/img/projects/gamingwebsite.png';
+  import Project2 from './assets/img/projects/githubimg.png';
+  import Project3 from './assets/img/projects/login.jpeg';
   import Project4 from './assets/img/projects/WatchImg.png';
   import Project5 from './assets/img/projects/Store.png';
   import Project6 from './assets/img/projects/tictactoe.png';
-  import Project7 from './assets/img/projects/tictactoe.png';
+  import Project7 from './assets/img/projects/calculator.png';
+  import Project8 from './assets/img/projects/restaurant.jpg';
+  import Project9 from './assets/img/projects/blog.jpg';
+  
   
   // skills images
   import SkillImg1 from './assets/img/skills/html-5.png';
@@ -78,19 +83,19 @@ import {
   export const social = [
     {
       icon: <FiYoutube />,
-      href: '',
+      href: 'https://www.youtube.com/channel/UCZqh7uJreYmQXxd4mTZbqwA',
     },
     {
-      icon: <FiInstagram />,
-      href: '',
+      icon: <FiLinkedin/>,
+      href: 'https://www.linkedin.com/in/moizmirza/ ',
     },
     {
       icon: <FiGithub />,
-      href: '',
+      href: 'https://github.com/MoizMirza1',
     },
     {
       icon: <FiFacebook />,
-      href: '',
+      href: 'https://www.facebook.com/profile.php?id=100011040305838',
     },
   ];
   
@@ -130,7 +135,7 @@ import {
       image: Project1,
       name: ' Gaming Accessories Website',
       category: 'UI/UX design',
-      link: "https://gameverse.netlify.app/",
+      link: "https://gameversestore.netlify.app/",
       site : "Visit live"
     },
     {
@@ -138,7 +143,7 @@ import {
       image: Project2,
       name: 'Github Finder',
       category: 'web development',
-      link: "",
+      link: "https://gittfinder.netlify.app/",
       site : "Visit live"
     },
     {
@@ -169,6 +174,30 @@ import {
       id: '6',
       image: Project6,
       name: 'Tic Tac Toe Game',
+      category: 'web development',
+      link : 'https://ticctacctoegamee.netlify.app/',
+      site : "Visit live"
+    },
+    {
+      id: '7',
+      image: Project7,
+      name: 'Calculator',
+      category: 'web development',
+      link : '',
+      site : "Visit live"
+    },
+    {
+      id: '8',
+      image: Project8,
+      name: 'Restaurant Website',
+      category: 'Designing',
+      link : '',
+      site : "Coming Soon"
+    },
+    {
+      id: '9',
+      image: Project9,
+      name: 'Blog Website',
       category: 'web development',
       link : '',
       site : "Visit live"
@@ -335,5 +364,11 @@ import {
       title: 'Current Location',
       subtitle: 'Karachi, Pakistan',
       description: 'Serving Mern Stack Development Services',
+    },
+    {
+      icon: <FiPhoneCall/>,
+      title: 'Phone Number',
+      subtitle: '0300-1234567',
+      description: 'Urgent inquiries require phone calls.',
     },
   ];

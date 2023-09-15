@@ -1,6 +1,6 @@
 import React from "react";
 import { social } from "../data";
-import logo from "../assets/img/My logo.png";
+import logo from "../assets/img/My logo2.png";
 
 const Footer = () => {
   return (

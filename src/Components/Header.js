@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../assets/img/My logo.png'
+import logo from '../assets/img/My logo2.png'
 import Nav from './Nav.js'
 import NavMobile from './NavMobile.js'
 import Socials from '../Components/Socials.js'

@@ -14,7 +14,7 @@ const Project = ({ item }) => {
         <div
           className={`flip-card-front ${
             isFlipped ? 'hidden' : 'block'
-          } w-full h-full absolute transition-transform duration-500 ease-in-out transform-gpu`}
+          } w-full h-full absolute transition-transform duration-500 ease-in-out `}
         >
  
          
@@ -25,7 +25,8 @@ const Project = ({ item }) => {
             <img
               className="w-[700px] h-[700px] object-cover rounded-lg transition-all duration-500 ease-in-out transform-gpu hover:scale-110 "
               src={item.image}
-              alt=""
+              alt="project"
+              loading='lazy'
             />
             <div className="mt-4 text-center">
               <h2 className="text-xl font-bold text-gray-800">{item.title}</h2>
