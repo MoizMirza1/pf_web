@@ -2,7 +2,7 @@ import React from "react";
 import AboutImg from "../assets/img/AboutImg.jpg";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
-import MyCV from '../assets/My cv.doc'; 
+import MyCV from '../assets/Moiz Mirza CV.pdf'; 
 // motion
 
 import { motion } from "framer-motion";
