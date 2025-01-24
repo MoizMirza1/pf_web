@@ -197,9 +197,9 @@ import {
     {
       id: '9',
       image: Project9,
-      name: 'Blog Website',
+      name: 'Doctor Website',
       category: 'web development',
-      link : '',
+      link : 'https://doctor-web0.netlify.app/',
       site : "Visit live"
     },
   ];
