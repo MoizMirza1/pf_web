@@ -31,7 +31,7 @@ import {
   import Project5 from './assets/img/projects/Store.png';
   import Project6 from './assets/img/projects/tictactoe.png';
   import Project7 from './assets/img/projects/calculator.png';
-  import Project8 from './assets/img/projects/restaurant.jpg';
+  import Project8 from './assets/img/projects/StreamingPlatform.png';
   import Project9 from './assets/img/projects/blog.jpg';
   
   
@@ -189,10 +189,10 @@ import {
     {
       id: '8',
       image: Project8,
-      name: 'Restaurant Website',
+      name: 'Streaming Website',
       category: 'Designing',
-      link : '',
-      site : "Coming Soon"
+      link : 'https://youmovie-frontend-kbpw3alzq-moizmirza1s-projects.vercel.app/',
+      site : "Visit live"
     },
     {
       id: '9',
